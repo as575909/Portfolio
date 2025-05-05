@@ -177,7 +177,7 @@ const Contact: React.FC = () => {
                 GitHub
               </a>
               <a 
-                href="https://linkedin.com/in/ayush-singh"
+                href="https://www.linkedin.com/in/ayush-singh-3a2b6916b/"
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="px-4 py-2 bg-blue-600 dark:bg-blue-700 text-white rounded-md hover:bg-blue-700 dark:hover:bg-blue-600 transition-colors"

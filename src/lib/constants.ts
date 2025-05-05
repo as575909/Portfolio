@@ -7,7 +7,7 @@ export const personalInfo = {
   phone: "+917524067988",
   email: "as575909@gmail.com",
   github: "as575909",
-  summary: "Experienced software engineer adept at meeting targets, delivering high-quality output, and tackling challenges. Seeking to leverage 2+ years of experience into a software engineer role, with a keen interest in becoming a skilled full-stack engineer. Eager learner committed to growth."
+  summary: "Experienced Software Engineer with a proven track record of delivering high-quality solutions, meeting project goals, and driving results under pressure. With over 2 years of hands-on experience in building scalable applications, I bring a strong foundation in both mobile app and frontend development. I am deeply committed to continuous learning and growth, with a focused ambition to evolve into a proficient full-stack engineer. Passionate about solving real-world problems through clean, efficient, and impactful code."
 };
 
 export const experiences: ExperienceType[] = [
