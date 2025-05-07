@@ -1,4 +1,6 @@
 import { ExperienceType, ProjectType, EducationType, CertificationType, SkillType } from '../types';
+import Coreo from '../assets/coreo.png';
+import MyFojo from '../assets/myfojo.png';
 
 export const personalInfo = {
   name: "Ayush Singh",
@@ -49,14 +51,15 @@ export const projects: ProjectType[] = [
     ],
     technologies: ["React Native", "Redux Toolkit", "Redux Saga", "Firebase", "TypeScript", "Android", "iOS"],
     links: {
-      appStore: "#",
-      playStore: "#"
+      appStore: "https://apps.apple.com/in/app/myfojo/id1632355069",
+      playStore: "https://play.google.com/store/apps/details?id=com.myfojo&hl=en"
     },
-    image: "https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    // image: "https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    image: MyFojo
   },
   {
     title: "COREO (Cab Sharing Application)",
-    period: "June 2023 - Apr 2023",
+    period: "June 2024 - Apr 2025",
     description: "Engineered a dynamic ride-sharing platform where users can seamlessly switch between rider or driver roles based on daily preference.",
     details: [
       "Designed and implemented real-time ride booking and location tracking using Firebase and Maps API.",
@@ -66,10 +69,11 @@ export const projects: ProjectType[] = [
     ],
     technologies: ["React Native", "TypeScript", "Node.js", "GraphQL", "Firebase", "Android", "iOS", "React Native Expo"],
     links: {
-      appStore: "#",
-      playStore: "#"
+      appStore: "https://apps.apple.com/us/app/coreo/id6547843063",
+      playStore: "https://play.google.com/store/apps/details?id=com.coreo&hl=en"
     },
-    image: "https://images.pexels.com/photos/243206/pexels-photo-243206.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    // image: "https://images.pexels.com/photos/243206/pexels-photo-243206.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    image: Coreo
   }
 ];
 
